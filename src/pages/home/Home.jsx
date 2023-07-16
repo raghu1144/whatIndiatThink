@@ -6,8 +6,7 @@ export const Home = () => {
   return (
     <>
       {/*  <Slider />*/}
-      <Category />
-      {/* raghu pal */}
+         <Category />    
       {/* <Card /> */}
     </>
   )
