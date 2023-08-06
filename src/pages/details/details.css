@@ -6,7 +6,7 @@
   margin-top: 30px;
 }
 .singlePage img {
-  width: 100%;
+  width: 50%;
   height: 100%;
   border-radius: 10px;
 }
@@ -33,4 +33,20 @@
 }
 .singlePage .button:nth-child(2) {
   background: #ee5253;
+}
+
+.comment-poll{
+  width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .singlePage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .comment-poll{
+    width: 100%;
+  }
 }

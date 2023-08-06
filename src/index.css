@@ -39,6 +39,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .flexCenter {
   display: flex;
@@ -120,8 +121,15 @@ footer .icon {
 @media screen and (max-width: 768px) {
   .grid3,
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
+  form {
+    width: 100%;
+  }
+  .login .text {
+    left: 10%;
+  }
+
 }
 .link {
   color: #000;
